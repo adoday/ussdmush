@@ -38,7 +38,7 @@ def ussdApp(request):
 
         elif text == '1*1':
             product="CON Menya igihumyo icyo aricyo"
-            response = "Igihumyo ni igihingwa cyihariye; ntikigira indabo cyangwa imbuto.Kigizwe n’ibice bitatu by ingenzi: Umurundugushyu, Umuringa n’ingofero.  Umurundugushu wacyo ntugira imizi, amashami n’amababi. Ibi bisimburwa n’umuringa ndetse n’ingofero. Uyu murundugushu niwo ufata ku mugina aho giteye ukavomamo intungamubiri. "+str(product)+"\n"
+            response = "Igihumyo ni igihingwa cyihariye; ntikigira indabo cyangwa imbuto.Kigizwe n'ibice bitatu by ingenzi: Umurundugushyu, Umuringa n'ingofero.  Umurundugushu wacyo ntugira imizi, amashami n'amababi. Ibi bisimburwa n'umuringa ndetse n'ingofero. Uyu murundugushu niwo ufata ku mugina aho giteye ukavomamo intungamubiri. \n"
         elif category =='1*1' and int(len(level)) == 3 and str(level[2]) in  str(level):
             response = "END Murakoze gusura Mushtech \n"
 
