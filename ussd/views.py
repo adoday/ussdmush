@@ -48,17 +48,19 @@ def ussdApp(request):
             response += "1. Pleurote ( Soma Pulerote) \n"
             response += "2. Ganoderma ( soma Ganoderima) \n"
         elif text == '1*2*1':
-            # product ="CON Dore igihumyo cya pulerote icyo aricyo \n"
             response = "END Pulerote  ni ubwoko bw'ibihumyo biribwa buhingirwa kugurishwa no kuribwa ku isi hose. Ubu bwoko bw'ibihumyo ntibugoye guteka kandi biraryoha. \n"
         
         elif text == '1*2*2':
-            # product ="CON Dore igihumyo cya Ganoderima icyo aricyo \n"
             response ="END Ganoderima ni ubwoko bw'ibihumyo bukoreshwa nk'umuti mu buvuzi gakondo bwo ku mugabane wa Aziya. \n"
         
-
         elif text == '1*3':
-            response ="CON Dore akamaro k'ibihumyo \n"
-            
+            response ="CON Ibihumyo bigira intungamubiri nyinshi cyane, zikubye 2 ugereranije n'inyama ndetse n'ibindi bihingwa duhereye ko bikize ku ntunga mubiri nka proteine, imyunyu ngugu n'amavitamine amwe n'amwe (B1,B2), nk'uko bigaragara mu mbonerahamwe ikurikira : \n"
+            response += "1. Mu buzima \n"
+            response += "2. Mu rwego rw'ubukungu \n"
+        elif text == '1*3*1':
+            response ="END Ibihumyo birinda indwara z'imirire mibi,Ibihumyo bituma igifu gikora neza;Ibihumyo byongera ubushobozi bw'umubiri mukwirwanaho, Ibihumyo birinda indwara zijyanye no kugira amaraso make \n"
+         elif text == '1*3*2':
+            response ="END Gutangira ntibisaba amafaranga menshi, kuko ibihumbi 20000 bishobora guhinga nibura m2 2 kandi ukaba ushobora gusarura umusaruro wagurisha kugeza ku mafaranga ibihumbi ijana na mirongo inani kugeza ku bihumbi magana abiri (180.000-200.000) , ibi rero bikaba byatuma n'abatishoboye babihinga. Ibihumyo ntibisaba ikorana buhanga rihambaye (rihanitse). Ni igihingwa ngenga bukungu kuko ku masoko asanzwe mu gihugu igiciro k'ibihumyo kiri hagati ya 1000 na 2000 frw ; Ibihumyo bifasha urubyiruko n'abagore kwihangira imirimo kandi bishobora kuba igisubizo cyo kurandura ubukene mu Rwanda. \n"
         else:
             response = "END Ukanze ibitaribyo, ongera mukanya"
         return HttpResponse(response)
