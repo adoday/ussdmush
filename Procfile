@@ -1,1 +1,1 @@
-web: gunicorn ida.wsgi --log-file -
+web: gunicorn mush.wsgi --log-file -
