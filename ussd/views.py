@@ -49,7 +49,7 @@ def ussdApp(request):
             response += "2. Ganoderma ( soma Ganoderima) \n"
         elif text == '1*2*1':
             response = "CON Pulerote  ni ubwoko bw'ibihumyo biribwa buhingirwa kugurishwa no kuribwa ku isi hose. Ubu bwoko bw'ibihumyo ntibugoye guteka kandi biraryoha. \n"
-        elif category =='1*2*1' and int(len(level)) == 5 and str(level[3]) in  str(level):
+        elif category =='1*2*1' and int(len(level)) == 4 and str(level[3]) in  str(level):
             response = "END Murakoze gusura Mushtech \n"
         elif text == '1*2*2':
             response ="END Ganoderima ni ubwoko bw'ibihumyo bukoreshwa nk'umuti mu buvuzi gakondo bwo ku mugabane wa Aziya. \n"
