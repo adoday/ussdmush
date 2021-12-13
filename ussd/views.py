@@ -59,7 +59,7 @@ def ussdApp(request):
             response += "2. Mu rwego rw'ubukungu \n"
         elif text == '1*3*1':
             response ="END Ibihumyo birinda indwara z'imirire mibi,Ibihumyo bituma igifu gikora neza;Ibihumyo byongera ubushobozi bw'umubiri mukwirwanaho, Ibihumyo birinda indwara zijyanye no kugira amaraso make \n"
-         elif text == '1*3*2':
+        elif text == '1*3*2':
             response ="END Gutangira ntibisaba amafaranga menshi, kuko ibihumbi 20000 bishobora guhinga nibura m2 2 kandi ukaba ushobora gusarura umusaruro wagurisha kugeza ku mafaranga ibihumbi ijana na mirongo inani kugeza ku bihumbi magana abiri (180.000-200.000) , ibi rero bikaba byatuma n'abatishoboye babihinga. Ibihumyo ntibisaba ikorana buhanga rihambaye (rihanitse). Ni igihingwa ngenga bukungu kuko ku masoko asanzwe mu gihugu igiciro k'ibihumyo kiri hagati ya 1000 na 2000 frw ; Ibihumyo bifasha urubyiruko n'abagore kwihangira imirimo kandi bishobora kuba igisubizo cyo kurandura ubukene mu Rwanda. \n"
         else:
             response = "END Ukanze ibitaribyo, ongera mukanya"
