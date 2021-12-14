@@ -35,7 +35,7 @@ def ussdApp(request):
             response += "1. igihumyo ni iki? \n"
             response += "2. Amoko y'ibihumyo bihingwa mu Rwanda \n"
             response += "3. Akamaro K'ibihumyo \n"
-            response += "4. ibigize igihumyo n'ko bahinga ibihumyo \n"
+            response += "4. ibyo bifashisha mu guhinga ibihumyo n'uko babihinga \n"
 
         elif text == '1*1':
             product="Menya igihumyo icyo aricyo"
@@ -66,13 +66,13 @@ def ussdApp(request):
         
         elif text == '1*4':
             response = "CON Dore ibigize igihumyo n'uko bahinga ibihumyo \n"
-            response += "1. Ibigize igihumyo \n"
+            response += "1. Ibyo bifashisha mu guhinga ibihumyo \n"
             response += "2. Uko bahinga ibihumyo \n"
 
         elif text == '1*4*1':
-            response ="END Umurama : Ni uruvange rw ibyatsi biseye bongeramo umwayi bikamara iminsi 40 kugeza kuri 45 ngo umurama ube wakwiriye muri tube hose (ugeze igihe cyo guterwa) Dukoresha ibi bikurikira mu gukora umurama: urubingo; ibikatsi by'ibisheke; ibigorigori; ibishekesheke; ibikenyeri; ibishogoshogo by'ingano; by'ibishyimbo; by'umuceri, ibibarara by'ipamba ; ibishogoshogo by'uburo ( ibyo byose ubyiyambaje bishobora kuguha uruvange rw'umurama rwiza). Twifashisha ubwoko bw'ibyatsi bw'ibihingwa byinshi binyuranye kandi biboneka muri aka Karere kacu mu rwego rwo kurengera ibidukikije. \n"
+            response ="END Hifashishwa ikizwi nk' umurama ndetse n'igisharagati cg ikibandahure. * *Umurama: Ni uruvange rw ibyatsi biseye bongeramo umwayi bikamara iminsi 40 kugeza kuri 45 ngo umurama ube wakwiriye muri tube hose (ugeze igihe cyo guterwa) Dukoresha ibi bikurikira mu gukora umurama: urubingo; ibikatsi by'ibisheke; ibigorigori; ibishekesheke; ibikenyeri; ibishogoshogo by'ingano; by'ibishyimbo; by'umuceri, ibibarara by'ipamba ; ibishogoshogo by'uburo ( ibyo byose ubyiyambaje bishobora kuguha uruvange rw'umurama rwiza). Twifashisha ubwoko bw'ibyatsi bw'ibihingwa byinshi binyuranye kandi biboneka muri aka Karere kacu mu rwego rwo kurengera ibidukikije. \n"
         elif text == '1*4*2':
-            response ="END Aho duhinga ibihumyo (igisharagati/ikibandahure)Mu buhinzi bw'ibihumyo singobwa kubaka inzu ikomeye, ihenze, isaba ibikoresho bihambaye cyangwa ubundi buhanga. ubuhehere, n'urunyurane rw'umwuka nibyo byitabwaho (bikenewe). Iyo umaze gukora igisharagati ucukuramo uturingoti dufite hagati ya cm 25 na 30 uzateramo imigina yawe, warangiza ugafata imigina (tubes) ugakuraho ya shashi no neho ugatereka mu butaka utondekanya ku murongo , warangiza ukorosaho agataka ka cm 1 noneho ukavomerera n'amazi. Iyo umaze kuvomerera ushyiraho isashe igondeye ku biti kugira ngo hagumemo ubuhehere kandi here kumagana kugeza igihe ibihumyo bizamuka .Iyo byatangiye kuzamuka,utwikurura ya sashe mbere ya saa moya za mugitondo mu gihe cy'igice cy'isaha igihe imvura itaguye, ukongera gutwikurura nanone igice cy'isaha izuba rirenze.Mu gihe cy'ubushuhe bwinshi ushobora gusuka amazi hahandi hateye byibura (300ml/umugina) buri kigoroba kugeza igihe ibihe bibaye byiza, kandi ukirinda gusuka amazi ku bihumyo bizamuka \n"
+            response ="END Mu buhinzi bw'ibihumyo singobwa kubaka inzu ikomeye, ihenze, isaba ibikoresho bihambaye cyangwa ubundi buhanga; igisharagati/ikibandahure birahagije kwifashishwa mu guhinga ibihumyo. ubuhehere, n'urunyurane rw'umwuka nibyo byitabwaho (bikenewe). Iyo umaze gukora igisharagati ucukuramo uturingoti dufite hagati ya cm 25 na 30 uzateramo imigina yawe, warangiza ugafata imigina (tubes) ugakuraho ya shashi no neho ugatereka mu butaka utondekanya ku murongo , warangiza ukorosaho agataka ka cm 1 noneho ukavomerera n'amazi. Iyo umaze kuvomerera ushyiraho isashe igondeye ku biti kugira ngo hagumemo ubuhehere kandi here kumagana kugeza igihe ibihumyo bizamuka .Iyo byatangiye kuzamuka,utwikurura ya sashe mbere ya saa moya za mugitondo mu gihe cy'igice cy'isaha igihe imvura itaguye, ukongera gutwikurura nanone igice cy'isaha izuba rirenze.Mu gihe cy'ubushuhe bwinshi ushobora gusuka amazi hahandi hateye byibura (300ml/umugina) buri kigoroba kugeza igihe ibihe bibaye byiza, kandi ukirinda gusuka amazi ku bihumyo bizamuka \n"
         
         
         else:
